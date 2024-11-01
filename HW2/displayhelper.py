@@ -53,3 +53,34 @@ class DisplayHelper:
             print('-'*100)
         print(f"Total ROI: {total_roi}")
         print('-'*100)
+    
+    def display_knapsack_table(self, roi, selected_projects, whole_projects, increment) -> None:
+        print("\n")
+        print("Dynamic Programming Table of ROI for Whole Projects")
+        print('-'*120)
+        for i in range(len(roi[0])):
+            if i == 0:
+                print("Projects\\Budget \t", i*increment, end="\t")
+            else:
+                print(i*increment, end="\t")
+        print()
+        print('-'*120)
+        projects_list = list()
+        tab_len = len(roi)
+        for i in range(len(roi)):
+            if i == 0:
+                pass
+            else:
+                projects_list.append(whole_projects[i-1].name)
+                tab_len-=1
+            if i == 0:
+                print(projects_list, end="\t"*(tab_len-1))
+            else:
+                print(projects_list, end="\t"*tab_len)
+            for j in range(len(roi[0])):
+                print(roi[i][j], end="\t")
+            print()
+        print('-'*120)
+        print("Selected Projects:", end="\t")
+        for project in selected_projects[-1][-1]:
+            print(project.name, end="\t")

@@ -2,16 +2,20 @@ import sys
 import os
 from typing import List, Tuple
 import logging
-
 current = os.path.dirname(os.path.realpath(__file__))
 parent = os.path.dirname(current)
 sys.path.append(parent)
-print(parent)
-
-from project import initialize_projects, Project, initialize_random_projects
-from displayhelper import DisplayHelper
+from project import  Project
 
 class Greedy:
+    def __init__(self, logger: logging = None):
+        """Constructor code for Greedy Algorithm
+
+        Args:
+            logger (logging): Logger object for logging file.
+        """
+        self.logger = logger
+        
     def seperate_projects(self, projects: List[Project]) -> Tuple[List[Project], List[Project]]:
         """Seperate the projects into whole and fractional projects
 
@@ -21,6 +25,7 @@ class Greedy:
         Returns:
             Tuple[List[Project], List[Project]]: Divided lists of whole and fractional projects
         """
+        self.logger.info("Seperating Projects into Whole and Fractional Projects")
         whole_projects = list()
         fractional_projects = list()
         for project in projects:
@@ -28,6 +33,7 @@ class Greedy:
                 whole_projects.append(project)
             elif project.project_type.lower() == "fractional":
                 fractional_projects.append(project)
+        self.logger.info(f"Whole Projects: {len(whole_projects)} and Fractional Projects: {len(fractional_projects)}")
         return whole_projects, fractional_projects
 
     def select_fractional_projects(self, projects: List[Project],budget: int)-> Tuple[List[Tuple[Project, float]], int, int]:
@@ -57,6 +63,7 @@ class Greedy:
                 selected_projects_roi += fractional_roi
                 selected_projects.append((project, can_complete_work))
                 break
+        self.logger.info(f"Selected Fractional Projects: {len(selected_projects)} with ROI: {selected_projects_roi} and Remaining Budget: {remaining_budget}")
         return selected_projects, selected_projects_roi, remaining_budget
 
     def select_whole_projects(self, projects: List[Project], total_roi: int ,budget: int) -> Tuple[List[Tuple[Project, float]], int, int]:
@@ -76,12 +83,10 @@ class Greedy:
                 budget -= project.required_budget
                 total_roi += project.roi
                 selected_projects.append((project,1))
+        self.logger.info(f"Selected Whole Projects: {len(selected_projects)} with ROI: {total_roi} and Remaining Budget: {budget}")
         return selected_projects, total_roi, budget
     
-
-
-
-    def algorithm(self, projects: List[Project], total_budget: int) -> Tuple[List[Project], int]:
+    def execute(self, projects: List[Project], total_budget: int) -> Tuple[List[Project], int]:
         """Main Algorithm to execute the Greedy Algorithm
 
         Args:
@@ -92,27 +97,15 @@ class Greedy:
             Tuple[List[Project], int]: Selected Projects and the total ROI
         """
         total_roi = 0
-        displayhelper = DisplayHelper()  
-        # displayhelper.display_projects(projects)      
         whole_projects, fractional_projects = self.seperate_projects(projects)
+        self.logger.info("Sorting Fractional Projects on the basis of ROI")
         fractional_projects.sort(key=lambda project: project.roi/project.required_budget, reverse=True)
-        # Fractional Execution
+        self.logger.info("Selecting Fractional Projects based on its Return")
         selected_fractional_projects, fractional_projects_roi, remaining_budget  = self.select_fractional_projects(fractional_projects, total_budget)
-        # displayhelper.display_greedy_projects(selected_fractional_projects, fractional_projects_roi)
+        self.logger.info("Sorting Whole Projects on the basis of ROI")
         whole_projects.sort(key=lambda project: project.roi, reverse=True)
+        self.logger.info("Selecting Whole Projects based on its Return")
         selected_whole_projects,total_roi, remaining_budget = self.select_whole_projects(whole_projects, fractional_projects_roi, remaining_budget)
         selected_projects = selected_fractional_projects + selected_whole_projects
-        # displayhelper.display_greedy_projects(selected_projects, total_roi)
+        self.logger.info(f"Total Projects Selected: {len(selected_projects)} with ROI: {total_roi} and Remaining Budget: {remaining_budget}")
         return selected_projects, total_roi
-                # selected_projects = selected_fractional_projects + selected_whole_projects
-        # print(fractional_projects_roi, whole_projects_roi)
-        # displayhelper = DisplayHelper()
-        # displayhelper.display_greedy_projects(selected_projects, total_roi)
-
-
-
-# if __name__ == "__main__":
-#     projects = initialize_random_projects()
-#     total_budget = 100000
-#     greedy = Greedy()
-#     greedy.algorithm(projects, total_budget)

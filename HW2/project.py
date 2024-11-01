@@ -48,7 +48,8 @@ def initialize_random_projects(num_projects : int = 10) -> List[Project]:
     for i in range(num_projects):
         name = "P" + str(i+1)
         project_type = random.choice(["Whole", "Fractional"])
-        budget = random.randint(10000, 60000)
+        budget = random.randint(1,10)*5000
         roi = budget * random.randint(1,5)
         projects.append(Project(name=name, project_type=project_type, required_budget=budget, roi=roi))
     return projects
+    
