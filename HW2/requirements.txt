@@ -1,6 +1,2 @@
-os
-time
-typing
-logging
-sys
-random
+matplotlib
+numpy

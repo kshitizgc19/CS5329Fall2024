@@ -1,0 +1,169 @@
+2024-11-01 00:55:17,916 - Main Menu Executed.
+2024-11-01 00:55:24,900 - User entered choice: 3
+2024-11-01 00:55:24,901 - Initializing 2 Projects
+2024-11-01 00:55:24,902 - Initializing 4 Projects
+2024-11-01 00:55:24,902 - Initializing 8 Projects
+2024-11-01 00:55:24,902 - Initializing 16 Projects
+2024-11-01 00:55:24,903 - Initializing 32 Projects
+2024-11-01 00:55:24,903 - Initializing 64 Projects
+2024-11-01 00:55:24,905 - Initializing 128 Projects
+2024-11-01 00:55:24,905 - Initializing 256 Projects
+2024-11-01 00:55:24,906 - Initializing 512 Projects
+2024-11-01 00:55:24,908 - Initializing 1024 Projects
+2024-11-01 00:55:24,910 - Initializing 2048 Projects
+2024-11-01 00:55:24,915 - Initializing 4096 Projects
+2024-11-01 00:55:24,923 - Initializing 8192 Projects
+2024-11-01 00:55:24,941 - Initializing 16384 Projects
+2024-11-01 00:55:24,973 - Initializing 32768 Projects
+2024-11-01 00:55:25,035 - Running Dynamic Programming Algorithm
+2024-11-01 00:55:25,035 - Whole Projects: 1 and Fractional Projects: 1
+2024-11-01 00:55:25,035 - Selecting Whole Projects
+2024-11-01 00:55:25,035 - Initialized Dynamic Programming Table with 1 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,035 - Initialized Dynamic Programming Table with 1 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,035 - Selected Whole Projects: 1 with ROI: 120000
+2024-11-01 00:55:25,035 - Selecting Fractional Projects for the remaining budget of 70000
+2024-11-01 00:55:25,035 - Total ROI: 195000 with Selected Projects: 2
+2024-11-01 00:55:25,035 - Project Size: 2
+2024-11-01 00:55:25,035 - Runtime: 0.00013899803161621094
+2024-11-01 00:55:25,035 - ROI: 195000
+2024-11-01 00:55:25,035 - Whole Projects: 0 and Fractional Projects: 4
+2024-11-01 00:55:25,035 - Selecting Whole Projects
+2024-11-01 00:55:25,035 - Initialized Dynamic Programming Table with 0 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,035 - Initialized Dynamic Programming Table with 0 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,035 - Selected Whole Projects: 0 with ROI: 0
+2024-11-01 00:55:25,035 - Selecting Fractional Projects for the remaining budget of 100000
+2024-11-01 00:55:25,035 - Total ROI: 345000.0 with Selected Projects: 3
+2024-11-01 00:55:25,035 - Project Size: 4
+2024-11-01 00:55:25,035 - Runtime: 9.894371032714844e-05
+2024-11-01 00:55:25,035 - ROI: 345000.0
+2024-11-01 00:55:25,035 - Whole Projects: 6 and Fractional Projects: 2
+2024-11-01 00:55:25,035 - Selecting Whole Projects
+2024-11-01 00:55:25,035 - Initialized Dynamic Programming Table with 6 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,035 - Initialized Dynamic Programming Table with 6 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,036 - Selected Whole Projects: 5 with ROI: 315000
+2024-11-01 00:55:25,036 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,036 - Total ROI: 315000.0 with Selected Projects: 6
+2024-11-01 00:55:25,036 - Project Size: 8
+2024-11-01 00:55:25,036 - Runtime: 0.00015783309936523438
+2024-11-01 00:55:25,036 - ROI: 315000.0
+2024-11-01 00:55:25,036 - Whole Projects: 8 and Fractional Projects: 8
+2024-11-01 00:55:25,036 - Selecting Whole Projects
+2024-11-01 00:55:25,036 - Initialized Dynamic Programming Table with 8 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,036 - Initialized Dynamic Programming Table with 8 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,036 - Selected Whole Projects: 5 with ROI: 440000
+2024-11-01 00:55:25,036 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,036 - Total ROI: 440000.0 with Selected Projects: 6
+2024-11-01 00:55:25,036 - Project Size: 16
+2024-11-01 00:55:25,036 - Runtime: 0.00018310546875
+2024-11-01 00:55:25,036 - ROI: 440000.0
+2024-11-01 00:55:25,036 - Whole Projects: 11 and Fractional Projects: 21
+2024-11-01 00:55:25,036 - Selecting Whole Projects
+2024-11-01 00:55:25,036 - Initialized Dynamic Programming Table with 11 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,036 - Initialized Dynamic Programming Table with 11 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,036 - Selected Whole Projects: 3 with ROI: 460000
+2024-11-01 00:55:25,036 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,036 - Total ROI: 460000.0 with Selected Projects: 4
+2024-11-01 00:55:25,036 - Project Size: 32
+2024-11-01 00:55:25,036 - Runtime: 0.0002090930938720703
+2024-11-01 00:55:25,036 - ROI: 460000.0
+2024-11-01 00:55:25,036 - Whole Projects: 24 and Fractional Projects: 40
+2024-11-01 00:55:25,036 - Selecting Whole Projects
+2024-11-01 00:55:25,036 - Initialized Dynamic Programming Table with 24 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,036 - Initialized Dynamic Programming Table with 24 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,036 - Selected Whole Projects: 5 with ROI: 405000
+2024-11-01 00:55:25,036 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,036 - Total ROI: 405000.0 with Selected Projects: 6
+2024-11-01 00:55:25,036 - Project Size: 64
+2024-11-01 00:55:25,036 - Runtime: 0.00032520294189453125
+2024-11-01 00:55:25,036 - ROI: 405000.0
+2024-11-01 00:55:25,036 - Whole Projects: 68 and Fractional Projects: 60
+2024-11-01 00:55:25,036 - Selecting Whole Projects
+2024-11-01 00:55:25,037 - Initialized Dynamic Programming Table with 68 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,037 - Initialized Dynamic Programming Table with 68 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,037 - Selected Whole Projects: 3 with ROI: 500000
+2024-11-01 00:55:25,037 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,037 - Total ROI: 500000.0 with Selected Projects: 4
+2024-11-01 00:55:25,037 - Project Size: 128
+2024-11-01 00:55:25,037 - Runtime: 0.0006799697875976562
+2024-11-01 00:55:25,037 - ROI: 500000.0
+2024-11-01 00:55:25,037 - Whole Projects: 131 and Fractional Projects: 125
+2024-11-01 00:55:25,037 - Selecting Whole Projects
+2024-11-01 00:55:25,037 - Initialized Dynamic Programming Table with 131 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,037 - Initialized Dynamic Programming Table with 131 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,038 - Selected Whole Projects: 4 with ROI: 500000
+2024-11-01 00:55:25,039 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,039 - Total ROI: 500000.0 with Selected Projects: 5
+2024-11-01 00:55:25,039 - Project Size: 256
+2024-11-01 00:55:25,039 - Runtime: 0.0014390945434570312
+2024-11-01 00:55:25,039 - ROI: 500000.0
+2024-11-01 00:55:25,039 - Whole Projects: 242 and Fractional Projects: 270
+2024-11-01 00:55:25,039 - Selecting Whole Projects
+2024-11-01 00:55:25,039 - Initialized Dynamic Programming Table with 242 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,039 - Initialized Dynamic Programming Table with 242 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,041 - Selected Whole Projects: 2 with ROI: 500000
+2024-11-01 00:55:25,041 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,041 - Total ROI: 500000.0 with Selected Projects: 3
+2024-11-01 00:55:25,041 - Project Size: 512
+2024-11-01 00:55:25,041 - Runtime: 0.0023109912872314453
+2024-11-01 00:55:25,041 - ROI: 500000.0
+2024-11-01 00:55:25,041 - Whole Projects: 507 and Fractional Projects: 517
+2024-11-01 00:55:25,041 - Selecting Whole Projects
+2024-11-01 00:55:25,041 - Initialized Dynamic Programming Table with 507 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,042 - Initialized Dynamic Programming Table with 507 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,046 - Selected Whole Projects: 3 with ROI: 500000
+2024-11-01 00:55:25,046 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,046 - Total ROI: 500000.0 with Selected Projects: 4
+2024-11-01 00:55:25,046 - Project Size: 1024
+2024-11-01 00:55:25,046 - Runtime: 0.004664897918701172
+2024-11-01 00:55:25,046 - ROI: 500000.0
+2024-11-01 00:55:25,046 - Whole Projects: 987 and Fractional Projects: 1061
+2024-11-01 00:55:25,046 - Selecting Whole Projects
+2024-11-01 00:55:25,046 - Initialized Dynamic Programming Table with 987 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,059 - Initialized Dynamic Programming Table with 987 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,066 - Selected Whole Projects: 4 with ROI: 500000
+2024-11-01 00:55:25,066 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,066 - Total ROI: 500000.0 with Selected Projects: 5
+2024-11-01 00:55:25,066 - Project Size: 2048
+2024-11-01 00:55:25,066 - Runtime: 0.020570993423461914
+2024-11-01 00:55:25,066 - ROI: 500000.0
+2024-11-01 00:55:25,067 - Whole Projects: 2009 and Fractional Projects: 2087
+2024-11-01 00:55:25,067 - Selecting Whole Projects
+2024-11-01 00:55:25,067 - Initialized Dynamic Programming Table with 2009 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,070 - Initialized Dynamic Programming Table with 2009 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,085 - Selected Whole Projects: 3 with ROI: 500000
+2024-11-01 00:55:25,085 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,085 - Total ROI: 500000.0 with Selected Projects: 4
+2024-11-01 00:55:25,086 - Project Size: 4096
+2024-11-01 00:55:25,086 - Runtime: 0.019193172454833984
+2024-11-01 00:55:25,086 - ROI: 500000.0
+2024-11-01 00:55:25,087 - Whole Projects: 4098 and Fractional Projects: 4094
+2024-11-01 00:55:25,087 - Selecting Whole Projects
+2024-11-01 00:55:25,087 - Initialized Dynamic Programming Table with 4098 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,104 - Initialized Dynamic Programming Table with 4098 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,136 - Selected Whole Projects: 4 with ROI: 500000
+2024-11-01 00:55:25,136 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,136 - Total ROI: 500000.0 with Selected Projects: 5
+2024-11-01 00:55:25,137 - Project Size: 8192
+2024-11-01 00:55:25,137 - Runtime: 0.051213979721069336
+2024-11-01 00:55:25,137 - ROI: 500000.0
+2024-11-01 00:55:25,139 - Whole Projects: 8079 and Fractional Projects: 8305
+2024-11-01 00:55:25,139 - Selecting Whole Projects
+2024-11-01 00:55:25,140 - Initialized Dynamic Programming Table with 8079 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,179 - Initialized Dynamic Programming Table with 8079 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,240 - Selected Whole Projects: 3 with ROI: 500000
+2024-11-01 00:55:25,241 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,242 - Total ROI: 500000.0 with Selected Projects: 4
+2024-11-01 00:55:25,243 - Project Size: 16384
+2024-11-01 00:55:25,243 - Runtime: 0.10579490661621094
+2024-11-01 00:55:25,243 - ROI: 500000.0
+2024-11-01 00:55:25,247 - Whole Projects: 16324 and Fractional Projects: 16444
+2024-11-01 00:55:25,247 - Selecting Whole Projects
+2024-11-01 00:55:25,250 - Initialized Dynamic Programming Table with 16324 Rows and 21 Columns with all zeros
+2024-11-01 00:55:25,336 - Initialized Dynamic Programming Table with 16324 Rows and 21 Columns with all lists `[]`
+2024-11-01 00:55:25,461 - Selected Whole Projects: 4 with ROI: 500000
+2024-11-01 00:55:25,461 - Selecting Fractional Projects for the remaining budget of 0
+2024-11-01 00:55:25,463 - Total ROI: 500000.0 with Selected Projects: 5
+2024-11-01 00:55:25,466 - Project Size: 32768
+2024-11-01 00:55:25,466 - Runtime: 0.22272992134094238
+2024-11-01 00:55:25,466 - ROI: 500000.0
+2024-11-01 00:56:12,319 - User entered choice: 5

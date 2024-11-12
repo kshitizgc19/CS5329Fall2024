@@ -1,0 +1,136 @@
+2024-10-31 23:06:31,266 - Main Menu Executed.
+2024-10-31 23:06:32,372 - User entered choice: 1
+2024-10-31 23:06:32,379 - Base Case Check for: ['P1', 'P2'] and Total Budget: 100000
+2024-10-31 23:06:32,380 - Base Case Check for: ['P2'] and Total Budget: 100000
+2024-10-31 23:06:32,380 - Base Case Check for: [] and Total Budget: 100000
+2024-10-31 23:06:32,380 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,380 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,380 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,380 - Base Case Check for: [] and Total Budget: 75000
+2024-10-31 23:06:32,380 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,380 - Max Included ROI: 75000 for Projects: ['P2']
+2024-10-31 23:06:32,380 - Max Excluded ROI: 75000 for Projects: ['P2']
+2024-10-31 23:06:32,380 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,380 - Base Case Check for: ['P2'] and Total Budget: 90000
+2024-10-31 23:06:32,380 - Base Case Check for: [] and Total Budget: 90000
+2024-10-31 23:06:32,380 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,380 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,380 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,380 - Base Case Check for: [] and Total Budget: 65000
+2024-10-31 23:06:32,380 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,380 - Max Included ROI: 75000 for Projects: ['P2']
+2024-10-31 23:06:32,380 - Max Included ROI: 115000 for Projects: ['P1', 'P2']
+2024-10-31 23:06:32,380 - Base Case Check for: ['P1', 'P2', 'P3', 'P4'] and Total Budget: 100000
+2024-10-31 23:06:32,380 - Base Case Check for: ['P2', 'P3', 'P4'] and Total Budget: 100000
+2024-10-31 23:06:32,380 - Base Case Check for: ['P3', 'P4'] and Total Budget: 100000
+2024-10-31 23:06:32,380 - Base Case Check for: ['P4'] and Total Budget: 100000
+2024-10-31 23:06:32,380 - Base Case Check for: [] and Total Budget: 100000
+2024-10-31 23:06:32,380 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,381 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,381 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,381 - Base Case Check for: [] and Total Budget: 50000
+2024-10-31 23:06:32,381 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,381 - Max Included ROI: 50000 for Projects: ['P4']
+2024-10-31 23:06:32,381 - Max Excluded ROI: 50000 for Projects: ['P4']
+2024-10-31 23:06:32,381 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,381 - Base Case Check for: ['P4'] and Total Budget: 55000
+2024-10-31 23:06:32,381 - Base Case Check for: [] and Total Budget: 55000
+2024-10-31 23:06:32,381 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,381 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,381 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,381 - Base Case Check for: [] and Total Budget: 5000
+2024-10-31 23:06:32,381 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,381 - Max Included ROI: 50000 for Projects: ['P4']
+2024-10-31 23:06:32,381 - Max Included ROI: 275000 for Projects: ['P3', 'P4']
+2024-10-31 23:06:32,381 - Max Excluded ROI: 275000 for Projects: ['P3', 'P4']
+2024-10-31 23:06:32,381 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,381 - Base Case Check for: ['P3', 'P4'] and Total Budget: 70000
+2024-10-31 23:06:32,381 - Base Case Check for: ['P4'] and Total Budget: 70000
+2024-10-31 23:06:32,381 - Base Case Check for: [] and Total Budget: 70000
+2024-10-31 23:06:32,381 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,381 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,381 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,381 - Base Case Check for: [] and Total Budget: 20000
+2024-10-31 23:06:32,381 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,381 - Max Included ROI: 50000 for Projects: ['P4']
+2024-10-31 23:06:32,381 - Max Excluded ROI: 50000 for Projects: ['P4']
+2024-10-31 23:06:32,381 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,381 - Base Case Check for: ['P4'] and Total Budget: 25000
+2024-10-31 23:06:32,381 - Base Case Check for: [] and Total Budget: 25000
+2024-10-31 23:06:32,381 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,381 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,381 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,381 - Max Included ROI: 225000 for Projects: ['P3']
+2024-10-31 23:06:32,382 - Max Included ROI: 345000 for Projects: ['P2', 'P3']
+2024-10-31 23:06:32,382 - Max Excluded ROI: 345000 for Projects: ['P2', 'P3']
+2024-10-31 23:06:32,382 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,382 - Base Case Check for: ['P2', 'P3', 'P4'] and Total Budget: 70000
+2024-10-31 23:06:32,382 - Base Case Check for: ['P3', 'P4'] and Total Budget: 70000
+2024-10-31 23:06:32,382 - Base Case Check for: ['P4'] and Total Budget: 70000
+2024-10-31 23:06:32,382 - Base Case Check for: [] and Total Budget: 70000
+2024-10-31 23:06:32,382 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,382 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,382 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,382 - Base Case Check for: [] and Total Budget: 20000
+2024-10-31 23:06:32,382 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,382 - Max Included ROI: 50000 for Projects: ['P4']
+2024-10-31 23:06:32,382 - Max Excluded ROI: 50000 for Projects: ['P4']
+2024-10-31 23:06:32,382 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,382 - Base Case Check for: ['P4'] and Total Budget: 25000
+2024-10-31 23:06:32,382 - Base Case Check for: [] and Total Budget: 25000
+2024-10-31 23:06:32,382 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,382 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,382 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,382 - Max Included ROI: 225000 for Projects: ['P3']
+2024-10-31 23:06:32,382 - Max Excluded ROI: 225000 for Projects: ['P3']
+2024-10-31 23:06:32,382 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,382 - Base Case Check for: ['P3', 'P4'] and Total Budget: 40000
+2024-10-31 23:06:32,382 - Base Case Check for: ['P4'] and Total Budget: 40000
+2024-10-31 23:06:32,382 - Base Case Check for: [] and Total Budget: 40000
+2024-10-31 23:06:32,383 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,383 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,383 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,383 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,383 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,383 - Base Case Check for: ['P4'] and Total Budget: 0
+2024-10-31 23:06:32,383 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,383 - Max Included ROI: 200000.0 for Projects: ['P3']
+2024-10-31 23:06:32,383 - Max Included ROI: 320000.0 for Projects: ['P2', 'P3']
+2024-10-31 23:06:32,383 - Max Included ROI: 380000.0 for Projects: ['P1', 'P2', 'P3']
+2024-10-31 23:06:32,383 - Base Case Check for: ['P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8'] and Total Budget: 100000
+2024-10-31 23:06:32,383 - Base Case Check for: ['P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8'] and Total Budget: 100000
+2024-10-31 23:06:32,383 - Base Case Check for: ['P3', 'P4', 'P5', 'P6', 'P7', 'P8'] and Total Budget: 100000
+2024-10-31 23:06:32,383 - Base Case Check for: ['P4', 'P5', 'P6', 'P7', 'P8'] and Total Budget: 100000
+2024-10-31 23:06:32,383 - Base Case Check for: ['P5', 'P6', 'P7', 'P8'] and Total Budget: 100000
+2024-10-31 23:06:32,383 - Base Case Check for: ['P6', 'P7', 'P8'] and Total Budget: 100000
+2024-10-31 23:06:32,383 - Base Case Check for: ['P7', 'P8'] and Total Budget: 100000
+2024-10-31 23:06:32,383 - Base Case Check for: ['P8'] and Total Budget: 100000
+2024-10-31 23:06:32,383 - Base Case Check for: [] and Total Budget: 100000
+2024-10-31 23:06:32,383 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,383 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,383 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,383 - Base Case Check for: [] and Total Budget: 80000
+2024-10-31 23:06:32,383 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,383 - Max Included ROI: 60000 for Projects: ['P8']
+2024-10-31 23:06:32,383 - Max Excluded ROI: 60000 for Projects: ['P8']
+2024-10-31 23:06:32,383 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,383 - Base Case Check for: ['P8'] and Total Budget: 55000
+2024-10-31 23:06:32,383 - Base Case Check for: [] and Total Budget: 55000
+2024-10-31 23:06:32,383 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,383 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,383 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,383 - Base Case Check for: [] and Total Budget: 35000
+2024-10-31 23:06:32,383 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,384 - Max Included ROI: 60000 for Projects: ['P8']
+2024-10-31 23:06:32,384 - Max Included ROI: 195000 for Projects: ['P7', 'P8']
+2024-10-31 23:06:32,384 - Max Excluded ROI: 195000 for Projects: ['P7', 'P8']
+2024-10-31 23:06:32,384 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,384 - Base Case Check for: ['P7', 'P8'] and Total Budget: 95000
+2024-10-31 23:06:32,384 - Base Case Check for: ['P8'] and Total Budget: 95000
+2024-10-31 23:06:32,384 - Base Case Check for: [] and Total Budget: 95000
+2024-10-31 23:06:32,384 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,384 - Max Excluded ROI: 0 for Projects: []
+2024-10-31 23:06:32,384 - Maximum ROI Calculation for included projects, recursion call
+2024-10-31 23:06:32,384 - Base Case Check for: [] and Total Budget: 75000
+2024-10-31 23:06:32,384 - Budget Less than 0 or No Projects, returning back to previous call
+2024-10-31 23:06:32,384 - Max Included ROI: 60000 for Projects: ['P8']

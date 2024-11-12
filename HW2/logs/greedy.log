@@ -1,0 +1,198 @@
+2024-11-01 00:54:37,992 - User entered choice: 2
+2024-11-01 00:54:37,992 - Initializing 2 Projects
+2024-11-01 00:54:37,992 - Initializing 4 Projects
+2024-11-01 00:54:37,992 - Initializing 8 Projects
+2024-11-01 00:54:37,993 - Initializing 16 Projects
+2024-11-01 00:54:37,993 - Initializing 32 Projects
+2024-11-01 00:54:37,993 - Initializing 64 Projects
+2024-11-01 00:54:37,994 - Initializing 128 Projects
+2024-11-01 00:54:37,994 - Initializing 256 Projects
+2024-11-01 00:54:37,995 - Initializing 512 Projects
+2024-11-01 00:54:37,998 - Initializing 1024 Projects
+2024-11-01 00:54:38,002 - Initializing 2048 Projects
+2024-11-01 00:54:38,006 - Initializing 4096 Projects
+2024-11-01 00:54:38,015 - Initializing 8192 Projects
+2024-11-01 00:54:38,032 - Initializing 16384 Projects
+2024-11-01 00:54:38,073 - Initializing 32768 Projects
+2024-11-01 00:54:38,128 - Running Greedy Algorithm
+2024-11-01 00:54:38,128 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,128 - Whole Projects: 1 and Fractional Projects: 1
+2024-11-01 00:54:38,128 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,128 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,128 - Selected Fractional Projects: 1 with ROI: 40000 and Remaining Budget: 90000
+2024-11-01 00:54:38,128 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,128 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,128 - Selected Whole Projects: 1 with ROI: 85000 and Remaining Budget: 45000
+2024-11-01 00:54:38,128 - Total Projects Selected: 2 with ROI: 85000 and Remaining Budget: 45000
+2024-11-01 00:54:38,128 - Project Size: 2
+2024-11-01 00:54:38,128 - Runtime: 0.00015687942504882812
+2024-11-01 00:54:38,128 - ROI: 85000
+2024-11-01 00:54:38,128 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,128 - Whole Projects: 2 and Fractional Projects: 2
+2024-11-01 00:54:38,128 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,128 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Fractional Projects: 2 with ROI: 165000 and Remaining Budget: 25000
+2024-11-01 00:54:38,129 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Whole Projects: 1 with ROI: 240000 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Total Projects Selected: 3 with ROI: 240000 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Project Size: 4
+2024-11-01 00:54:38,129 - Runtime: 0.0001227855682373047
+2024-11-01 00:54:38,129 - ROI: 240000
+2024-11-01 00:54:38,129 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,129 - Whole Projects: 5 and Fractional Projects: 3
+2024-11-01 00:54:38,129 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Fractional Projects: 3 with ROI: 250000 and Remaining Budget: 35000
+2024-11-01 00:54:38,129 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Whole Projects: 1 with ROI: 390000 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Total Projects Selected: 4 with ROI: 390000 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Project Size: 8
+2024-11-01 00:54:38,129 - Runtime: 0.00011897087097167969
+2024-11-01 00:54:38,129 - ROI: 390000
+2024-11-01 00:54:38,129 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,129 - Whole Projects: 7 and Fractional Projects: 9
+2024-11-01 00:54:38,129 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Fractional Projects: 3 with ROI: 500000.0 and Remaining Budget: 25000
+2024-11-01 00:54:38,129 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Whole Projects: 2 with ROI: 615000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Total Projects Selected: 5 with ROI: 615000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Project Size: 16
+2024-11-01 00:54:38,129 - Runtime: 0.00014328956604003906
+2024-11-01 00:54:38,129 - ROI: 615000.0
+2024-11-01 00:54:38,129 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,129 - Whole Projects: 15 and Fractional Projects: 17
+2024-11-01 00:54:38,129 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Fractional Projects: 3 with ROI: 345000.0 and Remaining Budget: 5000
+2024-11-01 00:54:38,129 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Whole Projects: 1 with ROI: 365000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Total Projects Selected: 4 with ROI: 365000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Project Size: 32
+2024-11-01 00:54:38,129 - Runtime: 0.0001342296600341797
+2024-11-01 00:54:38,129 - ROI: 365000.0
+2024-11-01 00:54:38,129 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,129 - Whole Projects: 34 and Fractional Projects: 30
+2024-11-01 00:54:38,129 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Fractional Projects: 5 with ROI: 500000.0 and Remaining Budget: 15000
+2024-11-01 00:54:38,129 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Whole Projects: 1 with ROI: 575000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Total Projects Selected: 6 with ROI: 575000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,129 - Project Size: 64
+2024-11-01 00:54:38,129 - Runtime: 0.00013780593872070312
+2024-11-01 00:54:38,129 - ROI: 575000.0
+2024-11-01 00:54:38,129 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,129 - Whole Projects: 61 and Fractional Projects: 67
+2024-11-01 00:54:38,129 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,129 - Selected Fractional Projects: 3 with ROI: 500000.0 and Remaining Budget: 45000
+2024-11-01 00:54:38,129 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,129 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,130 - Selected Whole Projects: 1 with ROI: 725000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,130 - Total Projects Selected: 4 with ROI: 725000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,130 - Project Size: 128
+2024-11-01 00:54:38,130 - Runtime: 0.00017714500427246094
+2024-11-01 00:54:38,130 - ROI: 725000.0
+2024-11-01 00:54:38,130 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,130 - Whole Projects: 126 and Fractional Projects: 130
+2024-11-01 00:54:38,130 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,130 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,130 - Selected Fractional Projects: 4 with ROI: 500000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,130 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,130 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,130 - Selected Whole Projects: 0 with ROI: 500000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,130 - Total Projects Selected: 4 with ROI: 500000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,130 - Project Size: 256
+2024-11-01 00:54:38,130 - Runtime: 0.00019478797912597656
+2024-11-01 00:54:38,130 - ROI: 500000.0
+2024-11-01 00:54:38,130 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,130 - Whole Projects: 278 and Fractional Projects: 234
+2024-11-01 00:54:38,130 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,130 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,130 - Selected Fractional Projects: 7 with ROI: 500000.0 and Remaining Budget: 5000
+2024-11-01 00:54:38,130 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,130 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,130 - Selected Whole Projects: 1 with ROI: 525000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,130 - Total Projects Selected: 8 with ROI: 525000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,130 - Project Size: 512
+2024-11-01 00:54:38,130 - Runtime: 0.00026226043701171875
+2024-11-01 00:54:38,130 - ROI: 525000.0
+2024-11-01 00:54:38,130 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,130 - Whole Projects: 540 and Fractional Projects: 484
+2024-11-01 00:54:38,130 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,130 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,130 - Selected Fractional Projects: 5 with ROI: 500000.0 and Remaining Budget: 25000
+2024-11-01 00:54:38,130 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,130 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,130 - Selected Whole Projects: 1 with ROI: 625000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,130 - Total Projects Selected: 6 with ROI: 625000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,130 - Project Size: 1024
+2024-11-01 00:54:38,130 - Runtime: 0.0003628730773925781
+2024-11-01 00:54:38,131 - ROI: 625000.0
+2024-11-01 00:54:38,131 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,131 - Whole Projects: 1005 and Fractional Projects: 1043
+2024-11-01 00:54:38,131 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,131 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,131 - Selected Fractional Projects: 5 with ROI: 500000.0 and Remaining Budget: 15000
+2024-11-01 00:54:38,131 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,131 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,131 - Selected Whole Projects: 1 with ROI: 575000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,131 - Total Projects Selected: 6 with ROI: 575000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,131 - Project Size: 2048
+2024-11-01 00:54:38,131 - Runtime: 0.0006000995635986328
+2024-11-01 00:54:38,131 - ROI: 575000.0
+2024-11-01 00:54:38,131 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,132 - Whole Projects: 2053 and Fractional Projects: 2043
+2024-11-01 00:54:38,132 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,132 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,132 - Selected Fractional Projects: 7 with ROI: 500000.0 and Remaining Budget: 10000
+2024-11-01 00:54:38,132 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,132 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,132 - Selected Whole Projects: 1 with ROI: 550000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,132 - Total Projects Selected: 8 with ROI: 550000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,132 - Project Size: 4096
+2024-11-01 00:54:38,132 - Runtime: 0.0012578964233398438
+2024-11-01 00:54:38,132 - ROI: 550000.0
+2024-11-01 00:54:38,132 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,133 - Whole Projects: 3992 and Fractional Projects: 4200
+2024-11-01 00:54:38,133 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,134 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,134 - Selected Fractional Projects: 5 with ROI: 500000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,134 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,134 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,135 - Selected Whole Projects: 0 with ROI: 500000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,135 - Total Projects Selected: 5 with ROI: 500000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,135 - Project Size: 8192
+2024-11-01 00:54:38,135 - Runtime: 0.0022101402282714844
+2024-11-01 00:54:38,135 - ROI: 500000.0
+2024-11-01 00:54:38,135 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,137 - Whole Projects: 8151 and Fractional Projects: 8233
+2024-11-01 00:54:38,137 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,138 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,138 - Selected Fractional Projects: 4 with ROI: 500000.0 and Remaining Budget: 25000
+2024-11-01 00:54:38,138 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,138 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,139 - Selected Whole Projects: 1 with ROI: 625000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,139 - Total Projects Selected: 5 with ROI: 625000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,139 - Project Size: 16384
+2024-11-01 00:54:38,139 - Runtime: 0.00408482551574707
+2024-11-01 00:54:38,139 - ROI: 625000.0
+2024-11-01 00:54:38,139 - Seperating Projects into Whole and Fractional Projects
+2024-11-01 00:54:38,142 - Whole Projects: 16355 and Fractional Projects: 16413
+2024-11-01 00:54:38,143 - Sorting Fractional Projects on the basis of ROI
+2024-11-01 00:54:38,145 - Selecting Fractional Projects based on its Return
+2024-11-01 00:54:38,145 - Selected Fractional Projects: 4 with ROI: 500000.0 and Remaining Budget: 5000
+2024-11-01 00:54:38,145 - Sorting Whole Projects on the basis of ROI
+2024-11-01 00:54:38,147 - Selecting Whole Projects based on its Return
+2024-11-01 00:54:38,147 - Selected Whole Projects: 1 with ROI: 525000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,147 - Total Projects Selected: 5 with ROI: 525000.0 and Remaining Budget: 0
+2024-11-01 00:54:38,147 - Project Size: 32768
+2024-11-01 00:54:38,147 - Runtime: 0.008522987365722656
+2024-11-01 00:54:38,147 - ROI: 525000.0
+2024-11-01 00:54:54,811 - User entered choice: 5
